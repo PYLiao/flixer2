@@ -111,7 +111,7 @@ p {
 }
 
 @media screen and (max-width: 767px) {
-    .container .logo video {
-      display: none;
+    #video_no {
+      visibility: hidden;
     }
 }
