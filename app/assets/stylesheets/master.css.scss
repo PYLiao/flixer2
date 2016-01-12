@@ -110,8 +110,8 @@ p {
   z-index: -1;
 }
 
-@media screen and (max-width: 767px) {
-    #video_no {
-      visibility: hidden;
+@media only screen and (max-width: 767px) {
+    .what_v {
+      display: none;
     }
 }
