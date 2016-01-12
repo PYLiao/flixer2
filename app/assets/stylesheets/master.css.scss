@@ -112,8 +112,9 @@ p {
 
 @media (max-width: 767px)
  {
-    .vdo video
+    .vdo
     {
       display: none !important;
+      visibility : hidden !important;
     }
 }
