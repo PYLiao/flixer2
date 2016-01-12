@@ -110,12 +110,9 @@ p {
   z-index: -1;
 }
 
-@media only screen and (max-width: 767px) {
-    .container {
-      background: url('hero.jpg') center center cover no-repeat;
-    }
+@media (max-width: 767px) {
 
-    .what_v {
+    .vdo {
       display: none !important;
     }
 }
