@@ -110,7 +110,7 @@ p {
   z-index: -1;
 }
 
-@media (max-width: 767px) {
+@media only screen (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
 
     .container {
       background: url('https://images.unsplash.com/photo-1450101215322-bf5cd27642fc?crop=entropy&dpr=2&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1150') center center / cover no-repeat;
