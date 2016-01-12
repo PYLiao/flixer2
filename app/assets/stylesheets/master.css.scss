@@ -106,13 +106,13 @@ p {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
   z-index: -1;
 }
 
 @media (max-width: 767px) {
   .container {
-    background: url('back.jpg') center center / cover no-repeat;
+    background: url('back.jpg') no-repeat center center cover;
     }
 
     .container video {
