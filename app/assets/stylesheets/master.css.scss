@@ -111,6 +111,10 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
+    .container {
+      background: url('hero.jpg') center center cover no-repeat;
+    }
+
     .what_v {
       display: none;
     }
