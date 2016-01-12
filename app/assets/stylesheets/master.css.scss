@@ -110,14 +110,10 @@ p {
   z-index: -1;
 }
 
-@media only screen (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
-
+@media only screen (max-width: 767px) {
     .container {
       background: url('try.jpg') center center / cover no-repeat;
     }
-
-
-
     .vdo {
       display: none !important;
     }
