@@ -106,20 +106,16 @@ p {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: -1;
 }
 
 @media (max-width: 767px) {
-  .container {
-    background: url('hero.jpg')no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 370px;
+  .page {
+    background: url('hero.jpg')no-repeat center center cover;
     }
 
-    .container video {
+    .v_do {
       display: none;
     }
 }
