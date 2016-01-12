@@ -110,7 +110,7 @@ p {
   z-index: -1;
 }
 
-@media only screen (min-device-width: 320px) and (max-device-width: 568px)  {
+@media only screen (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
 
     .container {
       background: url('try.jpg') center center / cover no-repeat;
