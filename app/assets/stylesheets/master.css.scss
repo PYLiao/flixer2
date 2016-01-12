@@ -112,11 +112,7 @@ p {
 
 @media (max-width: 767px) {
   .container {
-    background: url('hero.jpg') no-repeat center center cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url('hero.jpg') center center / cover no-repeat;
     }
 
     .container video {
